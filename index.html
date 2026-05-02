@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Apexcify Technologies – Pioneering the Future of Digital Innovation with cutting-edge software, AI, and cloud solutions." />
+  <title>Apexcify Technologies | Pioneering Digital Innovation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-apex">Apex</span><span class="logo-cify">cify</span>
+        <span class="logo-dot">●</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#team" class="nav-link">Team</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn-nav">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="hero-orb orb3"></div>
+    <div class="hero-content">
+      <div class="hero-badge"><span class="badge-dot"></span> Next-Gen Technology Solutions</div>
+      <h1 class="hero-title">
+        We Build the <span class="gradient-text">Future</span><br/>of Digital Innovation
+      </h1>
+      <p class="hero-sub">Apexcify Technologies crafts enterprise-grade software, AI systems, and cloud infrastructure that propel businesses into tomorrow.</p>
+      <div class="hero-btns">
+        <a href="#portfolio" class="btn-primary">Explore Our Work <i class="fas fa-arrow-right"></i></a>
+        <a href="#services" class="btn-ghost">Our Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-target="250">0</span><span>+</span><p>Projects Done</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="98">0</span><span>%</span><p>Client Satisfaction</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="40">0</span><span>+</span><p>Team Experts</p></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="tech-card card-float">
+        <i class="fas fa-brain"></i>
+        <span>AI & Machine Learning</span>
+      </div>
+      <div class="tech-card card-float2">
+        <i class="fas fa-cloud"></i>
+        <span>Cloud Infrastructure</span>
+      </div>
+      <div class="tech-card card-float3">
+        <i class="fas fa-shield-halved"></i>
+        <span>Cybersecurity</span>
+      </div>
+      <div class="hero-globe">
+        <div class="globe-ring r1"></div>
+        <div class="globe-ring r2"></div>
+        <div class="globe-ring r3"></div>
+        <div class="globe-core"><i class="fas fa-microchip"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">What We Offer</div>
+        <h2>Our <span class="gradient-text">Services</span></h2>
+        <p>Comprehensive technology solutions tailored to accelerate your digital transformation.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-bar" id="serviceFilter">
+        <button class="filter-btn active" data-filter="all">All Services</button>
+        <button class="filter-btn" data-filter="dev">Development</button>
+        <button class="filter-btn" data-filter="ai">AI & Data</button>
+        <button class="filter-btn" data-filter="cloud">Cloud</button>
+        <button class="filter-btn" data-filter="security">Security</button>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+        <div class="service-card" data-cat="dev">
+          <div class="service-icon"><i class="fas fa-code"></i></div>
+          <h3>Web Development</h3>
+          <p>High-performance web apps with modern frameworks, responsive design, and blazing-fast load times.</p>
+          <a href="#contact" class="service-link">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="service-card" data-cat="dev">
+          <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Mobile Apps</h3>
+          <p>Native and cross-platform mobile solutions for iOS and Android that deliver seamless user experiences.</p>
+          <a href="#contact" class="service-link">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="service-card" data-cat="ai">
+          <div class="service-icon"><i class="fas fa-brain"></i></div>
+          <h3>Artificial Intelligence</h3>
+          <p>Custom AI models, NLP systems, and intelligent automation pipelines for enterprise workflows.</p>
+          <a href="#contact" class="service-link">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="service-card" data-cat="ai">
+          <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Data Analytics</h3>
+          <p>Transform raw data into actionable insights with advanced analytics dashboards and BI tools.</p>
+          <a href="#contact" class="service-link">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="service-card" data-cat="cloud">
+          <div class="service-icon"><i class="fas fa-cloud"></i></div>
+          <h3>Cloud Solutions</h3>
+          <p>Scalable cloud architecture on AWS, Azure & GCP with DevOps automation and CI/CD pipelines.</p>
+          <a href="#contact" class="service-link">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="service-card" data-cat="security">
+          <div class="service-icon"><i class="fas fa-shield-halved"></i></div>
+          <h3>Cybersecurity</h3>
+          <p>End-to-end security audits, penetration testing, and compliance frameworks to protect your assets.</p>
+          <a href="#contact" class="service-link">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="service-card" data-cat="dev">
+          <div class="service-icon"><i class="fas fa-cubes"></i></div>
+          <h3>Blockchain</h3>
+          <p>Decentralized applications, smart contracts, and tokenization platforms on leading blockchains.</p>
+          <a href="#contact" class="service-link">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="service-card" data-cat="cloud">
+          <div class="service-icon"><i class="fas fa-server"></i></div>
+          <h3>DevOps & Infra</h3>
+          <p>Infrastructure as code, Kubernetes orchestration, and 24/7 monitoring for zero-downtime deployments.</p>
+          <a href="#contact" class="service-link">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Our Work</div>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+        <p>A showcase of innovative solutions we've delivered for clients worldwide.</p>
+      </div>
+
+      <div class="portfolio-filters" id="portfolioFilter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+        <button class="filter-btn" data-filter="ai">AI</button>
+        <button class="filter-btn" data-filter="cloud">Cloud</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+        <div class="portfolio-card" data-cat="ai" data-title="NeuralVision AI" data-desc="An enterprise-grade computer vision platform using deep learning to automate quality inspection in manufacturing lines — achieving 99.2% defect detection accuracy." data-tags="Python, TensorFlow, OpenCV, AWS">
+          <div class="portfolio-thumb ai-thumb"><div class="thumb-icon"><i class="fas fa-eye"></i></div><div class="thumb-label">AI Vision</div></div>
+          <div class="portfolio-overlay"><button class="btn-view" onclick="openLightbox(this)"><i class="fas fa-expand"></i> View</button></div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">AI & ML</span>
+            <h3>NeuralVision AI</h3>
+            <p>Computer vision for manufacturing QA</p>
+          </div>
+        </div>
+        <div class="portfolio-card" data-cat="web" data-title="FinFlow Dashboard" data-desc="A real-time financial analytics dashboard for a FinTech startup, featuring live market data, portfolio management, and AI-driven investment insights." data-tags="React, Node.js, PostgreSQL, D3.js">
+          <div class="portfolio-thumb web-thumb"><div class="thumb-icon"><i class="fas fa-chart-pie"></i></div><div class="thumb-label">FinTech</div></div>
+          <div class="portfolio-overlay"><button class="btn-view" onclick="openLightbox(this)"><i class="fas fa-expand"></i> View</button></div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Web App</span>
+            <h3>FinFlow Dashboard</h3>
+            <p>Real-time financial analytics platform</p>
+          </div>
+        </div>
+        <div class="portfolio-card" data-cat="mobile" data-title="MedLink Mobile" data-desc="A telemedicine app connecting patients with certified doctors via video, chat, and prescription management — serving 50,000+ active users across 12 countries." data-tags="React Native, Firebase, Twilio, Node.js">
+          <div class="portfolio-thumb mobile-thumb"><div class="thumb-icon"><i class="fas fa-heartbeat"></i></div><div class="thumb-label">HealthTech</div></div>
+          <div class="portfolio-overlay"><button class="btn-view" onclick="openLightbox(this)"><i class="fas fa-expand"></i> View</button></div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Mobile App</span>
+            <h3>MedLink Mobile</h3>
+            <p>Telemedicine platform for 12 countries</p>
+          </div>
+        </div>
+        <div class="portfolio-card" data-cat="cloud" data-title="CloudNest Platform" data-desc="A multi-tenant SaaS infrastructure platform deployed on Kubernetes with auto-scaling, serving 500+ enterprise clients with 99.99% uptime SLA." data-tags="Kubernetes, Terraform, AWS, Go">
+          <div class="portfolio-thumb cloud-thumb"><div class="thumb-icon"><i class="fas fa-cloud-upload-alt"></i></div><div class="thumb-label">SaaS</div></div>
+          <div class="portfolio-overlay"><button class="btn-view" onclick="openLightbox(this)"><i class="fas fa-expand"></i> View</button></div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Cloud</span>
+            <h3>CloudNest Platform</h3>
+            <p>Multi-tenant SaaS infrastructure</p>
+          </div>
+        </div>
+        <div class="portfolio-card" data-cat="web" data-title="EduSphere LMS" data-desc="A comprehensive learning management system with live classes, AI-personalized learning paths, and gamification — used by 200+ educational institutions." data-tags="Next.js, Django, Redis, WebRTC">
+          <div class="portfolio-thumb edu-thumb"><div class="thumb-icon"><i class="fas fa-graduation-cap"></i></div><div class="thumb-label">EdTech</div></div>
+          <div class="portfolio-overlay"><button class="btn-view" onclick="openLightbox(this)"><i class="fas fa-expand"></i> View</button></div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Web App</span>
+            <h3>EduSphere LMS</h3>
+            <p>AI-powered learning management system</p>
+          </div>
+        </div>
+        <div class="portfolio-card" data-cat="ai" data-title="ChatBot Studio" data-desc="An enterprise conversational AI builder with drag-and-drop workflow designer, multi-language NLP, and seamless CRM integrations for customer support automation." data-tags="Python, GPT-4, FastAPI, Vue.js">
+          <div class="portfolio-thumb chat-thumb"><div class="thumb-icon"><i class="fas fa-comments"></i></div><div class="thumb-label">NLP</div></div>
+          <div class="portfolio-overlay"><button class="btn-view" onclick="openLightbox(this)"><i class="fas fa-expand"></i> View</button></div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">AI & NLP</span>
+            <h3>ChatBot Studio</h3>
+            <p>Enterprise conversational AI builder</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox">
+        <div class="lightbox-overlay" onclick="closeLightbox()"></div>
+        <div class="lightbox-box">
+          <button class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+          <button class="lightbox-prev" id="lbPrev" onclick="shiftLightbox(-1)"><i class="fas fa-chevron-left"></i></button>
+          <button class="lightbox-next" id="lbNext" onclick="shiftLightbox(1)"><i class="fas fa-chevron-right"></i></button>
+          <div class="lightbox-content" id="lightboxContent"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">The Minds Behind</div>
+        <h2>Our <span class="gradient-text">Team</span></h2>
+        <p>Brilliant engineers, designers, and strategists united by a passion for innovation.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar av1"><i class="fas fa-user-tie"></i></div>
+          <h3>Alex Mercer</h3>
+          <span class="team-role">CEO & Co-Founder</span>
+          <p>Former Google engineer with 15+ years building scalable systems.</p>
+          <div class="team-socials">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar av2"><i class="fas fa-user-astronaut"></i></div>
+          <h3>Priya Sharma</h3>
+          <span class="team-role">CTO & AI Lead</span>
+          <p>PhD in Machine Learning from MIT. Built AI systems used by millions.</p>
+          <div class="team-socials">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar av3"><i class="fas fa-user-ninja"></i></div>
+          <h3>Jordan Lee</h3>
+          <span class="team-role">Lead Designer</span>
+          <p>Award-winning UX designer with a knack for intuitive, beautiful interfaces.</p>
+          <div class="team-socials">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar av4"><i class="fas fa-user-cog"></i></div>
+          <h3>Marcus Chen</h3>
+          <span class="team-role">Cloud Architect</span>
+          <p>AWS & GCP certified architect. Designed infra serving 10M+ requests/day.</p>
+          <div class="team-socials">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Let's Connect</div>
+        <h2>Get In <span class="gradient-text">Touch</span></h2>
+        <p>Ready to build something extraordinary? Drop us a message.</p>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div><h4>Address</h4><p>123 Innovation Drive, Tech City, CA 94025</p></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div><h4>Email</h4><p>hello@apexcify.com</p></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div><h4>Phone</h4><p>+1 (800) APEXCIFY</p></div>
+          </div>
+          <div class="contact-socials">
+            <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service">
+              <option value="">Select a service...</option>
+              <option>Web Development</option>
+              <option>Mobile Apps</option>
+              <option>Artificial Intelligence</option>
+              <option>Cloud Solutions</option>
+              <option>Cybersecurity</option>
+              <option>Data Analytics</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full" id="submitBtn">
+            <span>Send Message</span> <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Your message has been sent! We'll get back to you shortly.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="font-size:1.5rem;margin-bottom:1rem;">
+            <span class="logo-apex">Apex</span><span class="logo-cify">cify</span><span class="logo-dot">●</span>
+          </div>
+          <p>Pioneering the future of digital innovation through cutting-edge technology solutions.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">Mobile Apps</a></li>
+            <li><a href="#services">AI & Data</a></li>
+            <li><a href="#services">Cloud</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#team">About Us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Careers</a></li>
+            <li><a href="#contact">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Apexcify Technologies. All rights reserved.</p>
+        <p>Built with <i class="fas fa-heart" style="color:#a855f7"></i> by Apexcify</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
